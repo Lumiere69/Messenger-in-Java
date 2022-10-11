@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuActivity"
+    android:id="@+id/activity_menu"
+    android:background="@color/white">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnPlus"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_send_plus"
+            app:backgroundTint="@color/btn_menu"
+            app:fabSize="mini"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnThemes"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_send_plus"
+            app:backgroundTint="@color/no_black1"
+            app:fabSize="mini" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChat1"
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btnPlus"
+            android:backgroundTint="@color/btn_menu"
+            android:layout_margin="0dp"
+            android:text="Перекодировка"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            app:cornerRadius="0dp"
+
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChat2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btnChat1"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/btn_menu"
+            android:text="Двоичный код"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            app:cornerRadius="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChat3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/btnChat2"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/btn_menu"
+            android:text="Шифр цезаря"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            app:cornerRadius="0dp" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "841338875773",
+    "firebase_url": "https://chatapp-3d1b3-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-3d1b3",
+    "storage_bucket": "chatapp-3d1b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841338875773:android:107f8dba0382fcdfd1a614",
+        "android_client_info": {
+          "package_name": "com.samasung.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841338875773-k3e9ekjno3qqucesdc0kutv9hpc248sp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samasung.chatapp",
+            "certificate_hash": "efe75c87e8dd4caa764a1b22e96bc951c4e17ec5"
+          }
+        },
+        {
+          "client_id": "841338875773-sts82ggap8np8o3o99l4mqiq7875mh6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXeebC7Y6xQUtyWolhomXYGhozFvgx3W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841338875773-sts82ggap8np8o3o99l4mqiq7875mh6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
